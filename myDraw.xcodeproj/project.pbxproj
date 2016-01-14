@@ -15,6 +15,8 @@
 		97D1802D1C42FE54000F9A76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D1802B1C42FE54000F9A76 /* Main.storyboard */; };
 		97D180381C42FE54000F9A76 /* myDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D180371C42FE54000F9A76 /* myDrawTests.m */; };
 		97D180431C42FE54000F9A76 /* myDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D180421C42FE54000F9A76 /* myDrawUITests.m */; };
+		97D180521C42FE70000F9A76 /* myPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D180511C42FE70000F9A76 /* myPoint.m */; };
+		97D180551C42FEAF000F9A76 /* myViewDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D180541C42FEAF000F9A76 /* myViewDraw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		97D1803E1C42FE54000F9A76 /* myDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D180421C42FE54000F9A76 /* myDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myDrawUITests.m; sourceTree = "<group>"; };
 		97D180441C42FE54000F9A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D180501C42FE70000F9A76 /* myPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myPoint.h; path = ../myPoint.h; sourceTree = "<group>"; };
+		97D180511C42FE70000F9A76 /* myPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myPoint.m; path = ../myPoint.m; sourceTree = "<group>"; };
+		97D180531C42FEAF000F9A76 /* myViewDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewDraw.h; sourceTree = "<group>"; };
+		97D180541C42FEAF000F9A76 /* myViewDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewDraw.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				97D1801E1C42FE54000F9A76 /* AppDelegate.m */,
 				97D180231C42FE54000F9A76 /* ViewController.h */,
 				97D180241C42FE54000F9A76 /* ViewController.m */,
+				97D180531C42FEAF000F9A76 /* myViewDraw.h */,
+				97D180541C42FEAF000F9A76 /* myViewDraw.m */,
+				97D180501C42FE70000F9A76 /* myPoint.h */,
+				97D180511C42FE70000F9A76 /* myPoint.m */,
 				97D180291C42FE54000F9A76 /* Assets.xcassets */,
 				97D1802B1C42FE54000F9A76 /* Main.storyboard */,
 				97D1802E1C42FE54000F9A76 /* Info.plist */,
@@ -269,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D180551C42FEAF000F9A76 /* myViewDraw.m in Sources */,
 				97D180251C42FE54000F9A76 /* ViewController.m in Sources */,
+				97D180521C42FE70000F9A76 /* myPoint.m in Sources */,
 				97D180221C42FE54000F9A76 /* main.m in Sources */,
 				97D1801F1C42FE54000F9A76 /* AppDelegate.m in Sources */,
 				97D180281C42FE54000F9A76 /* myDraw.xcdatamodeld in Sources */,
